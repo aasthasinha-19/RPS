@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rock-paper-scissor</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="app.js" type="text/javascript"></script>
+</head>
+<body>
+    <header>
+        <h1>WELCOME TO ROCK,PAPER,SCISSOR !</h1>
+    <p>Play this famous childhood game and check your score below !</p>
+    <h2>Choose your mighty weapon</h2></header>
+    <div class="container">
+        <div class="image">
+    <img id="rock" src="img/rock.svg" onclick="checker('rock')">
+    <img id="paper" src="img/paper.svg" onclick="checker('paper')">
+    <img  id="scissor" src="img/scissors.svg" onclick="checker('scissor')">
+    </div>
+    </div>
+    <div id="choose"></div>
+    
+    <div id="score">
+        <div class="scrout">
+        <p>You :<span id="youscore">0</span></p>
+        <p>Computer:<span id="compscore">0</span></p>
+       </div></div>
+    <div id="result"></div>
+</body>
+</html>
