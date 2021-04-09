@@ -33,15 +33,18 @@ function checker(input){
    switch(choices_obj[input][Computer_choice]){
 
     case 'win':
-      document.getElementById('result').innerHTML=`YOU WIN !`;
+      document.getElementById('result').innerHTML=`YOU WON 🎉 !`;
+      document.getElementById('result').style.cssText="color:green";
       user_score++;
       break;
     case 'lose':
-      document.getElementById('result').innerHTML=`YOU LOSE !`;
+      document.getElementById('result').innerHTML=`YOU LOSE :( !`;
+      document.getElementById('result').style.cssText="color: red ";
       computer_score++;
       break;
     case 'draw':
       document.getElementById('result').innerHTML=`IT'S A TIE !`;
+      document.getElementById('result').style.cssText="color:black";
        break;
    }
 document.getElementById('youscore').innerHTML=user_score;

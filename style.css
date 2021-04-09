@@ -2,7 +2,7 @@ body{
     background-color:rgb(238, 241, 26);
 }
 header{
-    margin-top: 150px;
+    margin-top:50px;
     text-align: center;
     font-size:20px ;
 }
@@ -11,7 +11,7 @@ header{
     flex-direction: row;
     justify-content:center;
     align-items: center;
-    margin-top: 110px;
+    margin-top: 80px;
 }
 
 .image{
@@ -30,7 +30,7 @@ img:hover {
     transform: scale(1.5);
   }
   #choose{
-      margin-top: 20px;
+      margin-top: 40px;
       text-align: center;
       font-size: 18px;
       font-weight: bold;
@@ -52,8 +52,19 @@ img:hover {
 
   #result{
    height: 100px;
-   font-size:18px;
-   font-weight: bold;
+   font-size:28px;
+   font-weight: bolder;
    text-align: center;
-   margin-top: 30px;
+   margin-top: 40px;
+   letter-spacing: 0.5px;
+  }
+  .button{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 25px;
+  }
+  button{
+      font-weight: bold;
+      border:2px solid black;
   }
